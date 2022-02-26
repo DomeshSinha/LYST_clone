@@ -1,0 +1,137 @@
+*{
+    text-decoration: none;
+}
+
+
+#main{
+    width: 100%;
+    height: 200px;
+    
+}
+#innersmall{
+    display: flex;
+    height: 50px;
+    width: 96%;
+    column-gap: 20px;
+    flex-direction: row-reverse;
+}
+
+#points{
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+#join{
+    height: 20px;
+    margin-top: 13px ;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 20px;
+}
+
+#innerbig{
+    display: flex;
+    
+    column-gap: 30px;
+    margin-top: 5px;
+}
+
+#banner{
+    font-weight: bolder;
+    font-family: sans-serif;
+    
+    
+   
+}
+
+#inputbox{
+    width: 950px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+#part{
+    font-size: 16px;
+    margin-top: 35px;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+
+#part1{
+    font-size: 10px;
+    margin-top: 35px;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+
+
+
+a{
+    color: black;
+}
+
+#signup1{
+    color: whitesmoke;
+    
+}
+
+#signup{
+    display: grid;
+    
+    grid-gap: 10px;
+    
+    width: 400px;
+    /* background-color: teal; */
+    height: 400px;
+    margin: auto;
+
+}
+#cont{
+    /* border: 1px solid red; */
+    /* width: 500px; */
+    height: 550px;;
+}
+
+#sign{
+    width: 250px;
+    height: 50px;
+    margin: auto;
+    font-weight: bold;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 40px;
+}
+
+
+
+#logincontainer{
+    display: grid;
+    width: 400px;
+    /* grid-gap: 5px; */
+    margin: auto;
+    /* background-color: teal; */
+    height: 400px;
+}
+#logincontainer>input{
+height: 50px;
+}
+#contain{
+    /* border: 1px solid red; */
+    /* width: 550px; */
+    height: 550px;
+    margin-bottom: 50px;
+}
+#log{
+    width: 250px;
+    height: 50px;
+    margin: auto;
+    font-weight: bold;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 20px;
+}
+
+input{
+    border-radius: 20px;
+}
+
