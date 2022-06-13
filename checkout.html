@@ -4,237 +4,118 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="Components/navbar.css">
-    <link rel="stylesheet" href="Components/checkout.css">
-    <link rel="stylesheet" href="Components/footer.css">
+    <title>Checkout</title>
+    <script
+    src="https://kit.fontawesome.com/24c494a6b6.js"
+    crossorigin="anonymous"
+  ></script>
+    <style>
+        #main{
+            width: 90%;
+            margin: auto;
+        }
+        #mainlogin{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            font-family: Futura-Medium, "Century Gothic", "Gill Sans", Helvetica, Arial, sans-serif;
+            }
+            #mainlogin>div{
+                padding-left: 10px;
+            }   
+            #contact{
+               font-family:  Futura-Medium, "Century Gothic", "Gill Sans", Helvetica, Arial, sans-serif;
+               margin-bottom: 20px;
+                display: grid;
+                grid-template-columns: repeat(2,1fr);
+                gap: 20px;
+            }
+            #contact>div{
+                border: 1px solid slategray;
+                text-align: center;
+                padding-top: 10px;
+            } 
+            #bwdiv{
+                text-align: center;
+            }
+            button{
+                margin-top: 10px;
+                margin-bottom: 20px;
+                background-color: black;
+                color: white;
+                padding: 10px 5px 10px 5px;
+            }
+            input{
+                margin-top: 10px;
+                padding: 10px 5px 10px 5px;
+            }
+            #hrbwdiv{
+                width: 0%;
+            }
+    </style>
 </head>
 <body>
-    <div id="navbar1"></div>
-
-    <div id="main-checkout">
-        <div id="address">
-            <div class="upper-div">
-                <div>1</div>
-                <div>
-                    <p>Delivery</p>
-                </div>
-            </div>
-
-            <div id="Gone">
-                <div>
-                    <input class="allInputs" type="email" id="emailInput" placeholder="Email">
-                </div>
-                <div>
-                    <div>
-                        <input class="allInputs" type="text" id="firstName" placeholder="First Name"><br>
-                    </div>
-                    <div>
-                        <input class="allInputs" type="text" id="lastName" placeholder="Last Name"><br>
-                    </div>
-                </div>
-                <div>
-                    <input class="allInputs" type="text" id="addressInput" placeholder="Address">
-                    
-                </div>
-                <div>
-                    <div>
-                        <input type="text" id="address2" placeholder="Address2 (Optional)">
-                    </div>
-                    <div>
-                        <input class="allInputs" type="text" id="Postal" placeholder="Postal Code"><br>
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <input class="allInputs" type="text" id="city" placeholder="City"><br>
-                    </div>
-                    <div>
-                        <input type="text" id="region" placeholder="Region (Optional)">
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <input class="allInputs" type="text" id="phone" placeholder="Phone"><br>
-                    </div>
-                    <div>
-                        <input class="allInputs" type="text" id="Country" placeholder="Country"><br>
-                    </div>
-                </div>
-                <div id="delivery">
-                    <div id="heading">
-                        <div>
-                            <p><strong>Delivery Method</strong></p>
-                        </div>
-                        <div>
-                            <p><strong>Estimated Arrival</strong></p>
-                        </div>
-                        <div>
-                            <p><strong>Shipping Cost</strong></p>
-                        </div>
-                    </div>
-                    <div id="border-color" class="required" onclick="required(1)">
-                        <div class="blue-div">
-                            <div>
-                                <button>1</button>
-                            </div>
-                            <div>
-                                <p>Standard</p>
-                                <p style="font-style: italic;">No additional import charges at delivery</p>
-                            </div>
-                        </div>
-                        <div class="center-text">
-                            <p>11–21 business days</p>
-                        </div>
-                        <div class="center-text">
-                            <p>INR 2,609</p>
-                        </div>
-                    </div>
-                    <div class="required border-color" onclick="required(2)">
-                        <div class="blue-div">
-                            <div>
-                                <button>2</button>
-                            </div>
-                            <div>
-                                <p>Standard</p>
-                                <p style="font-style: italic;">Import charges collected upon delivery</p>
-                            </div>
-                        </div>
-                        <div class="center-text">
-                            <p>11–21 business days</p>
-                        </div>
-                        <div class="center-text">
-                            <a style="color: #2a9dcc;">Calculate</a>
-                        </div>
-                    </div>
-                    <div class="required border-color" onclick="required(3)">
-                        <div class="blue-div">
-                            <div>
-                                <button>3</button>
-                            </div>
-                            <div>
-                                <p>Standard</p>
-                                <p style="font-style: italic;">No additional import charges at delivery</p>
-                            </div>
-                        </div>
-                        <div class="center-text">
-                            <p>11–16 business days</p>
-                        </div>
-                        <div class="center-text">
-                            <a style="color: #2a9dcc;">Calculate</a>
-                        </div>
-                    </div>
-                    <div class="required border-color" onclick="required(4)">
-                        <div class="blue-div">
-                            <div>
-                                <button>4</button>
-                            </div>
-                            <div>
-                                <p>Standard</p>
-                                <p style="font-style: italic;">Import charges collected upon delivery</p>
-                            </div>
-                        </div>
-                        <div class="center-text">
-                            <p>11–16 business days</p>
-                        </div>
-                        <div class="center-text">
-                            <a style="color: #2a9dcc;">Calculate</a>
-                        </div>
-                    </div>
-                    <div>
-                        <button id="placeTheOrder3" onclick="checkValues()">Continue>></button>
-                    </div>
-                </div>
-            </div>
-            <hr>
-            <div class="upper-div upper-div-2">
-                <div>2</div>
-                <div>
-                    <p>Payment</p>
-                </div>
-                
-            </div>
-            <hr>
-            <div id="foot">
-                <p>
-                    By placing your order, you agree to the <span><a href="">Terms & Conditions</a></span> and
-                    <span><a href="">Privacy Policy of Borderfree from Pitney Bowes</a></span>, Nordstrom’s
-                    international
-                    fulfillment service. Borderfree is an online merchant that is located at 27 Waterview Drive,
-                    Shelton, CT, 06484, US.
-                </p>
-            </div>
-</div>
-<div id="right">
-    <div id = "pop2">
-        <div id = "trolley"> </div>
-        <div id = "yrOrder">Your Order</div><br/>
-        <br/>
-       
-        <br>
-        <div id="itemprice">
-            <div>
-                <p class = "itemsShipping">Items</p>
-                <p class = "itemsShipping">Shipping</p>
-                <p class = "itemsShipping">Duties & Taxes</p>
-                <h1 class = "new">Total</h1>
-            </div>
-            <div>
-                <p class = "itemsShipping realPrice">₹ 3,369</p>
-                <p class = "itemsShipping">INR 2,609</p>
-                <p class = "itemsShipping">INR 2,516</p>
-                <p class = "new totalPrice">INR 8,494</p>
-            </div>
+   <div id="main">
+    <hr>
+    <a href="cart.html"><p> < Back to Cart</p></a>
+    <div id="mainlogin">
+        <div id="wlogin">
+            <h2>YOU ALREADY HAVE A PASSWORD</h2>
+            <p>
+                Please sign in here by entering your email address and your password. By signing in, your account information, including saved addresses, will be available throughout the checkout.
+            </p>
+            <input id="em" type="email" placeholder="Email address*" required>
+            <br>
+            <input id="pass" type="password" placeholder="Password*" required>
+            <br>
+            <p>*required field</p>
+            <p>Did you forget your password ?</p>
+            <button onclick="myfunction1()">PROCEED WITH LOGIN</button>
         </div>
-        <button id = "placeTheOrder2" >Continue >></button>
-
-        <div id = smalBord></div> 
+        <hr id="hrbwdiv">
+        
+        <div id="wologin">
+            <h2>YOU DO NOT HAVE A PASSWORD YET</h2>
+            <p>Orders can be placed without a password, too.</p>
+            <button onclick="myfunction2()">PROCEED WITHOUT LOGIN</button>
+        </div>
     </div>
-</div>
-</div>
-<div id="footer1"></div>
-
+    <hr>
+    <p id="bwdiv">You can also place your order via telephone.</p>
+    <div id="contact">
+        <div id="call">
+            <i class="fa-solid fa-phone"></i>
+            <h3>CALL US</h3>
+            <p>8094906950</p>
+            <p>Available 24/7</p>
+        </div>
+        <div id="mail">
+            <i class="fa-solid fa-envelope"></i>
+            <h3>MAIL US</h3>
+            <P>moneyforey786@gmail.com</P>
+        </div>
+    </div>
+    <hr>
+   </div>
 </body>
 </html>
-<script type="module">
-import navbar from "./scripts/navbar.js"
 
-var navbar1 = document.getElementById("navbar1");
-
-navbar1.innerHTML = navbar();
-
-
-
-
-document.getElementById("placeTheOrder2").addEventListener("click", function(){
-    window.location.href = "payment.html"
-}) ; 
-document.getElementById("placeTheOrder3").addEventListener("click", function(){
-    window.location.href = "payment.html"
-}); 
-
-
-var total = JSON.parse(localStorage.getItem("total"));
-console.log(total);
-var realPrice = document.querySelector(".realPrice");
-realPrice.textContent = total.value;
-
-displayTotal();
-function displayTotal() {
-    // document.querySelector(".realPrice").textContent = "";
+<script>
+function myfunction1(){
+    console.log( "i in")
+    let em = document.getElementById("em").value;
+    let pass = document.getElementById("pass").value;
     
-     total.map(function (item) {
-        var realPrice = document.querySelector(".realPrice");
-        realPrice.textContent = `INR ${item.total} `;
-        var totalPrice = document.querySelector(".totalPrice");
-        var sum = item.total + 2609 + 2516; 
-        totalPrice.textContent =  `INR ${sum} `;
-})
+    if(em == "" || pass == "")
+    {
+        alert("Enter Credentials")
+    }
+    else{
+        alert("Login Successfully")
+        window.location.assign("payment.html")
+    }
 }
 
-import footer from "./scripts/footer.js"
-var footer1 = document.getElementById("footer1");
-
-footer1.innerHTML = footer();
-
+function myfunction2(){
+    window.location.assign("payment.html")
+}
 </script>
