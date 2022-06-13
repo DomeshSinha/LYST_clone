@@ -5,9 +5,7 @@ Hello Everyone I am Delighted To Share The Collaborative Project during unit 3â€
 
 As This Was The Collaborative Group project everyone was thrilled and enthusiastic, We were Given lyst.com website To Clone Using HTML, Advance JavaScript(ES6+) , and CSS As Of This Website Features an e-commerce site for Fashion products, So even from the start it was a bit of challenging,
 
-But Apprently Everyone Had Knack For Challenges so all the members were excited and ready to start working on the website, but as we know we need to have a plan of action and with everyone supporting and respecting the decisions we get to the even grounds and started with the home page,
 
-# Shubham C Randive Has Created The Home Page and Chandani Chandra has Created The Navigation Bar Which Was
 
 ![Screenshot (52)](https://user-images.githubusercontent.com/57911117/167422436-7bd6a9c8-0d4f-4c7b-885c-36f3791ea351.png)
 
