@@ -3,10 +3,14 @@ import {womenProductData,displayData} from "../components/womenProducts.js";
 let fatchedData=womenProductData();
 
 let displayArea=document.querySelector("#displayProducts");
-// let clothingdata=fatchedData.filter((elem)=>{
-//     if(elem.type=="Dress")
-//     return elem;
-// });
+
+/*
+let clothingdata=fatchedData.filter((elem)=>{
+    if(elem.type=="Dress")
+    return elem;
+});
+*/
+
 document.getElementById("titalCloths").innerText=fatchedData.length+" "+"Items ";
 displayData(displayArea,fatchedData);
 
