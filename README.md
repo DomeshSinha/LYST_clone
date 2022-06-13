@@ -59,4 +59,4 @@ And At last and important there is a cart page with functionality to sum total t
 Then there is the payment page after successfully entering the card details you will redirect to the checkout page where you have to input the card details then after verifying Details there will order a successful alert after which you will be redirected to home page.
 
 # References:-
-# Netlify Link:-
+# Netlify Link:- https://lyst-clone-project.netlify.app/
