@@ -1,9 +1,9 @@
 # Project Clone Credo Beauty Website
-Hello Everyone I am Delighted To Share The Collaborative Project during unit 3’s construct week ,Through Dedication , Hard work and resilience to Create something New, Together We have Created This Amazing project
+Hello Everyone I am Delighted To Share The Solo Project during unit 3’s construct week ,Through Dedication , Hard work and resilience to Create something New, I have Created This Amazing project
 
 
 
-As This Was The Collaborative Group project everyone was thrilled and enthusiastic, We were Given lyst.com website To Clone Using HTML, Advance JavaScript(ES6+) , and CSS As Of This Website Features an e-commerce site for Fashion products, So even from the start it was a bit of challenging,
+As This Was The Solo project i was thrilled and enthusiastic, I was Given lyst.com website To Clone Using HTML, Advance JavaScript(ES6+) , and CSS As Of This Website Features an e-commerce site for Fashion products, So even from the start it was a bit of challenging,
 
 
 
